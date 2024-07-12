@@ -1,5 +1,5 @@
 // C++ program to print diamond shape
-// with 2n rows 
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -8,8 +8,6 @@ void printDiamond(int n)
 { 
     int space = n - 1; 
 
-    // run loop (parent loop) 
-    // till number of rows 
     for (int i = 0; i < n; i++) 
     { 
         // loop for initially space, 
@@ -28,8 +26,6 @@ void printDiamond(int n)
     // Repeat again in reverse order 
     space = 0; 
 
-    // run loop (parent loop) 
-    // till number of rows 
     for (int i = n; i > 0; i--) 
     { 
         // loop for initially space, 
